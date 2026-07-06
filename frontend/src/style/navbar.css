@@ -1,0 +1,42 @@
+.navbar {
+    height:70px;
+    background-color: #1e293b;
+    color :white;
+    display: flex;
+    justify-content : space-between;
+    align-items: center;
+    padding: 0 30px;
+    box-shadow: 0 20px 8px rgba(0, 0 , 0 , 0.15);
+
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.search-box {
+    padding:10px 14px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    width: 250px;
+
+}
+.portfolio-btn {
+    background-color: #38bdf8;
+    color: #38bdf8;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+.profile-btn:hover{
+    opacity: 0.9;
+}
